@@ -54,7 +54,7 @@ class Solution
                 number[index++] = x % 10;
                 x /= 10;
             }
-            for (int i = 0, j = index - 1; i <= index / 2 & j >= index / 2; i++, j--)
+            for (int i = 0, j = index - 1; i <= index / 2 && j >= index / 2; i++, j--)
             {
                 if (number[i] != number[j])
                     return false;
