@@ -12,6 +12,7 @@ int binarySearch(T arr[], int n, int target)
     while (l <= r)        //lr之间依然是有效的
     {
         int mid = (l + r) / 2;
+        // int mid = l + (r - l) / 2;//预防整型溢出
         if (arr[mid] == target)
             return mid;
         if (target > arr[mid])
