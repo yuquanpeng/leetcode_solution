@@ -3,6 +3,10 @@
  *
  * [121] Best Time to Buy and Sell Stock
  */
+/*
+我们只需要遍历一次数组， 通过一个变量记录当前最低价格， 同时算出此
+次交易利润， 并与当前最大值比较就可以了
+ */
 class Solution
 {
 public:
